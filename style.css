@@ -1,0 +1,826 @@
+
+/* General________________________________________*/
+body {
+  margin: 0;
+  font-family: 'Kanit', 'Raleway', sans-serif;
+  background-color: black;
+  min-width: 625px;
+  
+}
+
+
+
+
+/* Landing page________________________________________*/
+.box-model
+{
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 40% auto;
+  grid-template-rows: auto auto;
+  position: relative;
+  
+}
+
+#box1
+{
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color:  white;
+  vertical-align: text-top;
+  padding-top: 100%;
+  padding-left: 40%;
+  position: relative;
+  background-image: url("images/IMG_2001.jpeg");
+  background-size: cover;
+  z-index: 2;
+
+}
+
+
+.box2
+{
+  
+  background-image: url("images/DSC_0274.jpg");
+  height: 1000px;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: -1;
+  
+}
+
+.box4
+{
+  font-family: 'Arial';
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color:  gray;
+  vertical-align: text-left;
+  padding-top: 10%;
+  padding-left: 20%;
+  position: relative;
+  padding-bottom: 10%
+}
+
+
+/* menu page___________________________________________*/
+
+  .menu-box-model
+  {
+    height: 90vh;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: auto 40%;
+    grid-template-rows: auto ;
+    
+    
+  }
+ .menu-box1
+ {
+   background-image: url("images/DSC_8739bw.jpg");
+   height: 1000px;
+   background-size: cover;
+   position: relative;
+ }
+
+  .menu-box2
+ {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  color:  white;
+  vertical-align: text-top;
+  padding-top: 60%;
+  padding-left: 20%;
+  position: relative;
+  padding-bottom: 20%;
+  
+  
+ }
+ 
+ /*Photography page____________________________________*/
+.photo-box-model
+{
+  height: 150vh;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(15, 20vh);
+   
+}
+
+.photo-box1
+{
+  font-family: 'Kanit';
+  font-size: 10vh;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  color:  white;
+  vertical-align: text-top;
+  text-align: center;
+  padding-top: 2%;
+  position: relative;
+  grid-area: 1 / 1 / span 1 / span 10;
+}
+
+
+.photo-box2
+{
+  background-image: url("images/IMG_9171.JPG");
+  height: 40vh;
+  background-size: cover;
+  grid-area: 2 / 1 / span 2 / span 3;
+}
+
+/*inicio fila, inicio columna, span rows, span cols*/
+.photo-box3
+{
+  
+background-image: url("images/IMG_8806.JPG");
+height: 20vh;
+background-size: cover;
+grid-area: 2 / 4 / span  1 / span 4;
+}
+
+.photo-box4
+{
+
+background-image: url("images/IMG_8859.JPG");
+height: 40vh;
+background-size: cover;
+grid-area: 3 / 4 / span  2 / span 4;
+
+}
+
+.photo-box5
+{
+background-image: url("images/IMG_7119.JPG");
+height: 60vh;
+background-size: cover;
+grid-area: 2 / 8 / span  3 / span 3;
+
+}
+
+.photo-box6
+{
+  
+background-image: url("images/IMG_7018.JPG");
+height: 30vh;
+background-size: contain;
+grid-area: 4 / 1 / span  1 / span 1;
+
+
+}
+
+.photo-box7
+{
+  
+  background-image: url("images/IMG_8305-1.JPG");
+  height: 30vh;
+  background-size: contain;
+  grid-area: 5 / 1 / span  1 / span 1;
+}
+
+.photo-box8
+{
+  
+  background-image: url("images/IMG_7522-1.JPG");
+  height: 40vh;
+  background-size: cover;
+  grid-area: 4 / 2 / span  2 / span 2;
+}
+
+.photo-box9
+{
+  background-image: url("images/IMG_8317.JPG");
+  height: 50vh;
+  background-size: cover;
+  grid-area: 5 / 4 / span  2 / span 2;
+}
+.photo-box10
+{
+  
+  background-image: url("images/IMG_8791.JPG");
+  height: 20vh;
+  background-size: cover;
+  grid-area: 5 / 6 / span  1 / span 5;
+}
+
+.photo-box11
+{
+  
+  background-image: url("images/IMG_7140-1-2.JPG");
+  height: 20vh;
+  background-size: cover;
+  grid-area: 6 / 1 / span  1 / span 3;
+}
+
+
+.photo-box12
+{
+  
+  background-image: url("images/IMG_7563-1.JPG");
+  height: 40vh;
+  background-size: cover;
+  grid-area: 7 / 1 / span  1 / span 2;
+}
+
+.photo-box13
+{
+  
+  background-image: url("images/IMG_7702.JPG");
+  height: 40vh;
+  background-size: cover;
+  grid-area: 7 / 3 / span  1 / span 3;
+}
+
+.photo-box14
+{
+  background-image: url("images/IMG_7294-2.JPG");
+  height: 60vh;
+  background-size: cover;
+  grid-area: 6 / 6 / span  2 / span 2;
+}
+
+.photo-box15
+{
+  background-image: url("images/IMG_9040-1.JPG");
+  height: 60vh;
+  background-size: cover;
+  grid-area: 6 / 8 / span  2 / span 3;
+}
+
+.photo-box16
+{  
+  background-image: url("images/IMG_7380-1-2.JPG");
+  height: 60vh;
+  background-size: cover;
+  grid-area: 9 / 1 / span 2 / span 3;
+}
+
+.photo-box17
+{
+  background-image: url("images/IMG_8928.JPG");
+  height: 20vh;
+  background-size: cover;
+  grid-area: 9 / 4 / span  1 / span 7;
+  
+}
+
+.photo-box18
+{
+  background-image: url("images/IMG_8879-2.JPG");
+  height: 20vh;
+  background-size: cover;
+  grid-area: 12 / 1 / span  1 / span 2;
+}
+
+.photo-box19
+{
+  background-image: url("images/IMG_8894.JPG");
+  height: 40vh;
+  background-size: cover;
+  grid-area: 10 / 4 / span  2 / span 2;
+
+  
+}
+
+.photo-box20
+{
+  background-image: url("images/IMG_7219.jpeg");
+  height: 40vh;
+  background-size: cover;
+  grid-area: 10 / 6 / span  2 / span 5;
+  
+  
+}
+
+.photo-box21
+{
+  background-image: url("images/IMG_7228.jpeg");
+  height: 40vh;
+  background-size: cover;
+  grid-area: 12 / 3 / span  2 / span 4;
+  
+  
+}
+
+.photo-box22
+{
+  background-image: url("images/IMG_8082.JPG");
+  height: 40vh;
+  background-size: cover;
+  grid-area: 12 / 7 / span  2 / span 5;
+}
+
+.photo-box23
+{
+  background-image: url("images/IMG_7733-1.JPG");
+  height: 20vh;
+  background-size: cover;
+  grid-area: 13 / 1 / span  1 / span 2;
+
+}
+
+.photo-box24
+{
+  background-image: url("images/IMG_9449.JPG");
+  height: 50vh;
+  background-size: cover;
+  grid-area: 14 / 1 / span  4 / span 8;
+  
+}
+
+
+.photo-box25
+{
+  background-image: url("images/IMG_8872.JPG");
+  height: 50vh;
+  background-size: cover;
+  grid-area: 14 / 9 / span  4 / span 2;
+  
+}
+
+.copyright-photo
+{
+  font-family: 'Arial';
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color:  white;
+  vertical-align: text-top;
+  padding-top: 30%;
+  position: relative;
+  height: 20vh;
+  grid-area: 15 / 1 / span  1 / span 10;
+  
+}
+
+/* Experience page_______________________________________*/
+header 
+{
+  background: white;
+  color: black;
+  line-break: strict; 
+  line-height: 1.5;
+}
+
+
+
+.main-info h1
+{
+  font-family: 'Kanit', sans-serif;
+  font-size: 50px;
+}
+
+.main-info h2
+{
+  font-family: 'Raleway', sans-serif;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  line-height: 0.5;
+}
+
+.main-info
+{
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 0;
+  
+}
+.main-info section
+{
+  padding-top: 7%;
+  
+}
+
+.container-projects
+{
+  max-width: 800px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 60px 0;
+  color: white;
+  
+}
+
+.container 
+{
+  max-width: 800px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 60px 0;
+  color: white;
+}
+
+.project
+{
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+  column-gap: 10%;
+  row-gap: 10%;
+}
+
+.projects img
+{
+  padding-top: 20%;
+  height: 20vh;
+  background-size: cover;
+}
+
+.contact
+{
+  list-style-type: none;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact a
+{
+  padding: 20px;
+  display: inline-block;
+  color: #F7FFF7;
+  background: rgb(53, 52, 52);
+  text-decoration: none;
+  border-radius: 4px;
+
+}
+
+.work-experience a
+{
+  color: #F7FFF7;
+  background: rgb(53, 52, 52);
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.work
+{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 10%;
+}
+
+.degrees
+{
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-position: top right;   
+}
+
+.education {
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  column-gap: 10%;
+}
+
+.copyright-exp
+{
+  font-family: 'Arial';
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color:  white;
+  vertical-align: text-top;
+  padding-top: 0%;
+  padding-bottom: 5%;
+  position: relative;
+  height: 5vh;
+}
+
+/* Biography________________________________________*/
+
+.bio-box-model
+{
+  height: 150vh;
+  max-width: 1000px;
+  width: 80%;
+  margin: 0;
+  padding-top: 5%;
+  padding-left:20%;
+  color: white;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 2fr;
+  grid-template-columns: 100%;
+  text-indent: 25px;
+}
+
+#boxTitle1
+{
+  font-size: 50px;
+  text-indent: 0px;
+}
+
+#boxTitle2
+{
+  font-size: 30px;
+  text-indent: 0px;
+}
+
+#boxTitle3
+{
+  text-indent: 0px;
+}
+
+
+#bio-title
+{
+  font-family: 'Kanit';
+  font-size: 10vh;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  color:  white;
+  vertical-align: text-top;
+  text-align: center;
+  padding: 10%;
+  position: relative;
+  background-image: url("images/emai.jpg");
+  background-size: cover;
+  
+}
+
+#bio.box1
+{
+  background-image: url("images/emai.jpg");
+  background-size: cover;
+}
+
+.copyright-bio
+{
+  font-family: 'Arial';
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color:  white;
+  vertical-align: text-top;
+  align-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: relative;
+  height: 5vh;
+}
+
+/* Cheat Sheets________________________________________*/
+
+
+
+
+.tagsHTML
+{
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  column-gap: 10%;
+}
+
+.tagsCSS
+{
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  column-gap: 10%;
+}
+
+.tagsJS
+{
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  column-gap: 10%;
+}
+
+#js-container 
+{
+  max-width: 800px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 60px 0;
+  color: white;
+}
+
+#js-main-info
+{
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 0;
+  
+}
+#js-main-info section
+{
+  padding-top: 7%;
+  
+}
+
+#guide a
+{
+  height: 150vh;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(28, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+
+}
+
+.index
+{
+  padding: 1%;
+  display: inline-block;
+  color: #F7FFF7;
+  background: rgb(128, 125, 125);
+  text-decoration: none;
+  border-radius: 4px;
+  list-style: none;
+}
+
+.contact-index
+{
+  list-style-type: none;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-index a
+{
+  padding: 5%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  color: #F7FFF7;
+  background: rgb(53, 52, 52);
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+ /*Adaptative solutions*/
+/* Landing page________________________________________*/
+
+
+  @media screen and (max-width:800px)
+  {
+    #box1
+    {
+      font-size: 70px;
+ 
+    }
+  
+    .index
+    {
+      padding: 15x;
+      display: flex;
+      color: #F7FFF7;
+      background: rgb(53, 52, 52);
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .contact-index a
+    {
+      padding: 0.75%;
+    }
+
+    .menu-box2
+    {
+      font-family: 'Raleway', sans-serif;
+      font-size: 30px;
+      padding-top: 30%;
+      padding-left: 10%;
+      position: relative;
+      padding-bottom: 5%;
+      padding-right: 10%;
+
+    }
+
+    .menu-box1
+    {
+      background-image: url("images/DSC_8739bw.jpg");
+      height: 800px;
+      background-size: cover;
+      position: relative;
+    }
+  }
+
+  @media screen and (max-width:700px)
+  {
+    #box1
+    {
+      font-size: 50px;
+ 
+    }
+    .index
+    {
+      padding: 10x;
+      display: flex;
+      color: #F7FFF7;
+      background: rgb(53, 52, 52);
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .contact-index a
+    {
+      padding: 0.5%;
+    }
+    .menu-box2
+    {
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      padding-top: 20%;
+      padding-left: 5%;
+      position: relative;
+      padding-bottom: 2%;
+      padding-right: 10%;
+
+    }
+    .menu-box1
+    {
+      background-image: url("images/DSC_8739bw.jpg");
+      height: 650px;
+      background-size: cover;
+      position: relative;
+    }
+  }
+  @media screen and (max-width:625px)
+  {
+    #box1
+    {
+      font-size: 40px;
+ 
+    }
+  
+    .box-model
+    {
+      height: 90vh;
+      margin: 2rem;
+      display: grid;
+      grid-template-columns: 30% auto;
+      grid-template-rows: auto auto;
+      
+    }
+    .index
+    {
+      padding: 5x;
+      display: flex;
+      color: #F7FFF7;
+      background: rgb(53, 52, 52);
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .contact-index a
+    {
+      padding: 0.25%;
+    }
+    .menu-box2
+    {
+      font-family: 'Raleway', sans-serif;
+      font-size: 15px;
+      padding-top: 10%;
+      padding-left: 5%;
+      position: relative;
+      padding-bottom: 1%;
+      padding-right: 10%;
+
+    }
+    .menu-box1
+    {
+      background-image: url("images/DSC_8739bw.jpg");
+      height: 500px;
+      background-size: cover;
+      position: relative;
+    }
+  }
+
+
+/* Menu page___________________________________________*/
+
+
+
+/*Photography page____________________________________*/
+
+
+  
+
+
+/*References 
+https://www.w3schools.com/css/css3_backgrounds.asp
+https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+
+W3 Schools.  (n.d.). CSS Grid Container.  W3 Schools.  Referenced on October 24th from https://www.w3schools.com/css/css_grid_container.asp
+https://www.w3schools.com/cssref/pr_background-image.asp
+https://www.developerdrive.com/how-to-create-a-css-grid-step-by-step/
+
+*/
